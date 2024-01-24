@@ -616,25 +616,44 @@
                           </div>
                     </div>
                     <div>
-                        <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div class="card shrink-0 w-full max-w-lg shadow-2xl bg-base-100">
                             <form class="card-body">
-                              <div class="form-control">
-                                <label class="label">
-                                  <span class="label-text">Email</span>
-                                </label>
-                                <input type="email" placeholder="email" class="input input-bordered" required />
+                              <div class="flex gap-2">
+                                <div class="form-control">
+                                    <label class="label">
+                                      <span class="label-text">Your Name</span>
+                                    </label>
+                                    <input type="text" placeholder="Enter Your Name" class="input input-bordered" required />
+                                  </div>
+                                  <div class="form-control">
+                                    <label class="label">
+                                      <span class="label-text">Email</span>
+                                    </label>
+                                    <input type="email" placeholder="Your email" class="input input-bordered" required />
+                                  </div>
+                              </div>
+                              <div class="flex gap-2">
+                                <div class="form-control">
+                                    <label class="label">
+                                      <span class="label-text">Subject</span>
+                                    </label>
+                                    <input type="text" placeholder="Enter Your Subject" class="input input-bordered" required />
+                                  </div>
+                                  <div class="form-control">
+                                    <label class="label">
+                                      <span class="label-text">Phone number</span>
+                                    </label>
+                                    <input type="number" placeholder="phone number" class="input input-bordered" required />
+                                </div>
                               </div>
                               <div class="form-control">
                                 <label class="label">
-                                  <span class="label-text">Password</span>
+                                  <span class="label-text">Message</span>
                                 </label>
-                                <input type="password" placeholder="password" class="input input-bordered" required />
-                                <label class="label">
-                                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                                </label>
-                              </div>
+                                <textarea class="border-1 border-blue-200" name="" id="" cols="30" rows="10">Write your message</textarea>
+                                
                               <div class="form-control mt-6">
-                                <button class="btn btn-primary">Login</button>
+                                <button class="btn font-bold bg-[#FF4240] text-white ml-3">Sent message</button>
                               </div>
                             </form>
                           </div>
